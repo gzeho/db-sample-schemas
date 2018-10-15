@@ -206,7 +206,7 @@ REM =======================================================
 
 CONNECT ix/&pass@&connect_string
 
-DEFINE vscript = __SUB__CWD__/info_exchange/cix_&vrs
+DEFINE vscript = C:/app/dolatog/github_examples/db-sample-schema/info_exchange/cix_&vrs
 @&vscript
 
 REM =======================================================
@@ -215,7 +215,7 @@ REM =======================================================
 
 CONNECT ix/&pass@&connect_string
 
-DEFINE vscript = __SUB__CWD__/info_exchange/vix_&vrs
+DEFINE vscript = C:/app/dolatog/github_examples/db-sample-schema/info_exchange/vix_&vrs
 @&vscript
 
 REM =======================================================

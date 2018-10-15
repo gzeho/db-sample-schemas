@@ -250,34 +250,34 @@ GRANT REFERENCES, SELECT ON product_information TO qs_adm;
 
 PROMPT calling qs_adm.sql ...
 CONNECT qs_adm/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_adm
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_adm
 
 PROMPT calling qs_cre.sql ...
 CONNECT qs/&pass@&connect_string;
-@__SUB__CWD__/shipping/qs_cre
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_cre
 
 PROMPT calling qs_es.sql ...
 CONNECT qs_es/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_es
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_es
 
 PROMPT calling qs_ws.sql ...
 CONNECT qs_ws/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_ws
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_ws
 
 PROMPT calling qs_os.sql ...
 CONNECT qs_os/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_os
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_os
 
 PROMPT calling qs_cbadm.sql ...
 CONNECT qs_cbadm/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_cbadm
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_cbadm
 
 PROMPT calling qs_cs.sql ...
 CONNECT qs_cs/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_cs
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_cs
 
 PROMPT calling qs_run.sql ...
 CONNECT qs_adm/&pass@&connect_string
-@__SUB__CWD__/shipping/qs_run
+@C:/app/dolatog/github_examples/db-sample-schema/shipping/qs_run
 
 spool off

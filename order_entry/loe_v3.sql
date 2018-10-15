@@ -60,22 +60,22 @@ PROMPT Setting FEEDBACK OFF for inserts
 PROMPT
 SET FEEDBACK OFF
 
-@__SUB__CWD__/order_entry/oe_p_pi
+@C:/app/dolatog/github_examples/db-sample-schema/order_entry/oe_p_pi
 
-@__SUB__CWD__/order_entry/oe_p_pd
+@C:/app/dolatog/github_examples/db-sample-schema/order_entry/oe_p_pd
 
-DEFINE vscript = __SUB__CWD__/order_entry/pwhs_&vrs
+DEFINE vscript = C:/app/dolatog/github_examples/db-sample-schema/order_entry/pwhs_&vrs
 @&vscript
 
-DEFINE vscript = __SUB__CWD__/order_entry/pcus_&vrs
+DEFINE vscript = C:/app/dolatog/github_examples/db-sample-schema/order_entry/pcus_&vrs
 @&vscript
 
-DEFINE vscript = __SUB__CWD__/order_entry/pord_&vrs
+DEFINE vscript = C:/app/dolatog/github_examples/db-sample-schema/order_entry/pord_&vrs
 @&vscript
 
-@__SUB__CWD__/order_entry/oe_p_itm
+@C:/app/dolatog/github_examples/db-sample-schema/order_entry/oe_p_itm
 
-@__SUB__CWD__/order_entry/oe_p_inv
+@C:/app/dolatog/github_examples/db-sample-schema/order_entry/oe_p_inv
 
 PROMPT Setting FEEDBACK ON
 PROMPT
